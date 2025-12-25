@@ -34,8 +34,63 @@ A request consist of parts.
 
 ## What are the most common request types?
 ### GET
-
+- To take data
+- Without body
 ```http
-GET /index.html HTTP/1.1
-Host: example.com
+GET /users
 ```
+### POST
+- To create new data
+```h
+POST /users
+```
+### PUT
+- To update all existing data.
+### PATCH
+- To update some of the existing data.
+### DELETE
+- To delete data.
+
+## What are the most common response statuses?
+### 200 OK
+- Request successful
+### 201 Created
+- New source created
+### 400 Bad Request
+- Client sent wrong data
+### 401 Unauthorized
+- No login
+### 403 Forbidden
+- No authority
+### 404 Not Found
+- Source not found
+### 500 Internal Server Error
+- Error on the server side
+
+## How browser can store data?
+Browsers can store data in different ways:
+### Cookies
+- Small datas
+- It is automatically sent to the server
+- Commonly used for authentication
+### LocalStorage
+- Permenant
+- It is not deleted when the browser is closed
+- It can be store big data
+### SessionStorage
+- It is deleted when the tab is closed
+- It is for temporary data
+
+## How can you use DevTools to understand each of these?
+DevTools are a developer's most important tool
+### Network tab
+- You will see the requests that have been sent (Method, URL, status code)
+### Application / Storage tab
+- Cookies
+- LocalStorage
+- SessionStorage
+### What is it used for?
+- Debugging
+- Understanding API
+- Finding errors
+
