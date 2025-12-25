@@ -94,3 +94,8 @@ DevTools are a developer's most important tool
 - Understanding API
 - Finding errors
 
+## Medium article
+https://medium.com/@akin2001inceler/how-the-web-works-from-browser-to-server-with-devtools-ee26b692ba63
+
+## Small quiz to test your knowledge 
+https://web-fundamentals-quiz-ee7c03cb.base44.app
