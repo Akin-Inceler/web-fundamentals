@@ -1,4 +1,4 @@
-# Task 0
+# Task 0. How Web Browser Work?
 ## How does the web browser work?
 1- URL entered
 2- Browser learns domains IP adress
