@@ -1,15 +1,35 @@
 .main{
     margin-top: 100px;
+    text-align: center;
 
 }
 
 .logo-img {
     width: 300px;
     display: block; 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .search-input {
-    width: 400px;
+    width: 450px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 30px;
+    line-height: 10px;
+}
+.bttn1, .bttn2 {
+
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dfe1e5;
+    color: #0f1419;
+    border: 1px solid #cfd9de;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 15px;
 }
