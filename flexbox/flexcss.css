@@ -1,0 +1,13 @@
+
+.container {
+    display: flex;
+    justify-content: center;    
+}
+
+.item {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}

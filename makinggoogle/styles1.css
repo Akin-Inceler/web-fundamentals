@@ -4,6 +4,7 @@
 
 }
 
+
 .logo-img {
     width: 300px;
     display: block; 
@@ -22,9 +23,16 @@
     padding: 10px 30px;
     line-height: 10px;
 }
-.bttn1, .bttn2 {
 
-    margin-top: 20px;
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn {
+
     padding: 10px 20px;
     background-color: #dfe1e5;
     color: #0f1419;
