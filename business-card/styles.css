@@ -5,7 +5,7 @@ body {
 .image {
     width: 150px;
     border-radius: 25px;
-    border: #64dfdf solid 5px;
+    border: #56cfe1 solid 5px;
 }
 .card {
     width: 400px;
@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #80ffdb;
+    background: #64dfdf;
     color: #7400b8;
     border-bottom: 10px solid #5390d9;
     border-right: #56cfe1 solid 10px;
