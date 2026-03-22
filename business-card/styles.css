@@ -1,9 +1,11 @@
 body {
     margin: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .image {
     width: 150px;
+    border-radius: 25px;
+    border: #64dfdf solid 5px;
 }
 .card {
     width: 400px;
@@ -12,10 +14,10 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 10px solid #d8cefe;
-    border-right: #2b2839 solid 10px;
-    
+    background: #80ffdb;
+    color: #7400b8;
+    border-bottom: 10px solid #5390d9;
+    border-right: #56cfe1 solid 10px;
+    border-radius: 15px;
     
 }
