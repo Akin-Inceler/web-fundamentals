@@ -39,4 +39,8 @@ body {
     border-bottom: 4px solid #7FB8C8ff;
 }
 
+#title {
+    text-shadow: 0 0 10px #7FB8C8ff;
+    
+}
 
