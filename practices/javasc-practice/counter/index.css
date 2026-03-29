@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
