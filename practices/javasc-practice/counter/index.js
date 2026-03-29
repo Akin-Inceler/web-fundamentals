@@ -1,12 +1,16 @@
-// document.getElementById("counter").innerText = 5
 
-
+let countEl = document.getElementById("counter")
 let count = 0
-
 
 
 
 function increment() {
     count = count + 1
-    document.getElementById("counter").innerText = count
+    countEl.innerText = count
+}
+
+function save() {
+    console.log(count)
+
+    
 }
