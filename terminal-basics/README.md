@@ -16,4 +16,3 @@ This directory contains my notes and practice files about the Command Line Inter
 ## Practice Notes
 - I learned how to navigate through the file system using the `cd` command.
 - I practiced creating nested directories and managing files from the terminal.
-- I'm getting comfortable with using the CLI instead of the GUI.
