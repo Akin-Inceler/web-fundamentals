@@ -11,7 +11,9 @@ This directory contains my notes and practice files about the Command Line Inter
 | `cd` | Change Directory (Navigate between folders) |
 | `mkdir` | Make Directory (Create a new folder) |
 | `touch` | Create a new empty file |
+| ` rm `  | To delete file |
 | `clear` | Clear the terminal screen |
+| ` .. `  | Shows represents the parent dictionary of the folder you are currently in |
 
 ## Practice Notes
 - I learned how to navigate through the file system using the `cd` command.
