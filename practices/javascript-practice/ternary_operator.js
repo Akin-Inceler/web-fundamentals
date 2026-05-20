@@ -17,3 +17,10 @@ const message = exerciseTimeMins < 30
     : 'Excellent!'
 
 console.log(message)
+
+const playerGuess = 3
+const correctNumber = 6
+const guessMessage = playerGuess === correctNumber
+  ? 'You win!' 
+  : 'Try again!'
+console.log(guessMessage)
