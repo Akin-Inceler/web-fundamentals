@@ -20,7 +20,7 @@ console.log(message)
 
 const playerGuess = 3
 const correctNumber = 6
-const guessMessage = playerGuess === correctNumber
-  ? 'You win!' 
-  : 'Try again!'
+const guessMessage = playerGuess < correctNumber? 'Too low!'
+  : playerGuess > correctNumber? 'Too high!'
+  : 'You win!'
 console.log(guessMessage)
