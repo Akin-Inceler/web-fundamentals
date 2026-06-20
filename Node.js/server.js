@@ -2,10 +2,8 @@ import http from 'node:http'
 
 const PORT = 8000
 
-const server = http.createServer((req, res) => {
-    res.end('Hello World!')
+const server = http.createServer((req, res) =>{
+    res.end('This is from the server!!')
 })
 
-server.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`)
-})
+server.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
