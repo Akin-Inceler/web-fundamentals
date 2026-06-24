@@ -9,7 +9,12 @@ const server = http.createServer(async (req, res) => {
     if (req.url === '/api' && req.method === 'GET') {
 
         res.setHeader('Content-Type', 'application/json')
+        res.statusCode = 200
         res.end(JSON.stringify(destinations, null, 2))
+    } else {
+        res.setHeader('Content-Type', 'application/json')
+        res.statusCode = 404
+        res.end(JSON.stringify({ error: 'Not found', message: 'The requested resource was not found.' }, null, 2))
     }
 })
 
