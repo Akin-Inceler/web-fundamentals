@@ -1,3 +1,2 @@
-SELECT brand, model, price, year FROM cars
-WHERE color = 'black';
+SELECT brand FROM cars;
 
