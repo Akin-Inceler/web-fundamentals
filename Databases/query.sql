@@ -1,10 +1,10 @@
 SELECT * FROM cars;
 
-SELECT brand, model, color, year, price FROM cars 
+SELECT brand, model, color, year, value FROM cars 
 WHERE color = 'red';
 
 SELECT * FROM cars 
-WHERE price < 1250;
+WHERE value < 1250;
 
 
 SELECT * FROM cars 
@@ -30,3 +30,17 @@ WHERE model LIKE 's_';
 SELECT * FROM cars 
 WHERE color NOT LIKE '%black%'
 AND model LIKE 's_';
+
+
+SELECT brand, model, color FROM cars 
+WHERE color NOT IN ('red', 'blue')
+AND brand NOT IN ('Toyota', 'Honda', 'volco');
+
+
+SELECT * FROM cars 
+WHERE ((brand = 'bmw' AND color = 'red') 
+OR (brand IN ('Honda', 'volvo') AND year BETWEEN 2000 AND 2010));
+
+
+SELECT brand, model, year FROM cars
+ ORDER BY brand;
