@@ -68,3 +68,21 @@ WHERE color LIKE '%red%'
 AND sold IS FALSE
 ORDER BY value DESC
 LIMIT 5;
+
+
+SELECT COUNT(*) FROM cars
+WHERE sold IS TRUE;
+
+
+SELECT SUM(value) AS total_earnings FROM cars
+WHERE sold IS TRUE;
+
+
+SELECT MAX(value) AS most_expensive_car FROM cars
+WHERE sold IS TRUE;
+
+
+SELECT AVG(value) AS average_value_of_bmw_cars FROM cars
+WHERE brand = 'BMW'; 
+
+
